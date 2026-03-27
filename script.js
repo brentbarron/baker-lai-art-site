@@ -53,16 +53,15 @@ function titleFromFilename(src) {
 }
 
 function buildGalleryItem(entry, index) {
-  const src      = entry.src;
-  const title    = entry.title    || titleFromFilename(src);
-  const category = entry.category || '';
-  const medium   = entry.medium   || '';
-  const year     = entry.year     || '';
-  const meta     = [medium, year].filter(Boolean).join(' \u2014 ');
+  const src        = entry.src;
+  const title      = entry.title      || titleFromFilename(src);
+  const medium     = entry.medium     || '';
+  const dimensions = entry.dimensions || '';
+  const year       = entry.year       || '';
+  const meta       = [medium, dimensions, year].filter(Boolean).join(' \u2014 ');
 
   const article = document.createElement('article');
   article.className = 'gallery-item';
-  if (category) article.dataset.category = category;
   article.dataset.index = index;
 
   article.innerHTML = `
@@ -89,27 +88,6 @@ function loadGallery() {
 
 function initGallery() {
   const items = Array.from(galleryGrid.querySelectorAll('.gallery-item'));
-
-  /* ---- Filter ---- */
-  const filterTabs = document.querySelectorAll('.filter-tab');
-
-  filterTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      filterTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
-      const filter = tab.dataset.filter;
-      items.forEach(item => {
-        const match = filter === 'all' || item.dataset.category === filter;
-        if (match) {
-          item.classList.remove('hidden', 'fade-out');
-        } else {
-          item.classList.add('fade-out');
-          setTimeout(() => item.classList.add('hidden'), 350);
-        }
-      });
-    });
-  });
 
   /* ---- Lightbox ---- */
   const lightbox      = document.getElementById('lightbox');
@@ -223,7 +201,6 @@ function initGallery() {
   addRevealClass('.about-section__text-col');
   addRevealClass('.about-section__stats', true);
   addRevealClass('.contact-form');
-  addRevealClass('.filter-tabs');
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {

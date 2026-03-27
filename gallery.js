@@ -1,72 +1,100 @@
 // Add or remove entries here to update the gallery.
 // src: path to image file (e.g. "images/my-painting.jpg") or a URL
 // title: optional — auto-generated from filename if omitted
-// category: optional — "oil", "watercolor", or "abstract" (used by filter tabs)
 // medium: optional — e.g. "Oil on Canvas"
+// dimensions: optional — e.g. "12 x 16 in"
 // year: optional — e.g. "2024"
 
 window.GALLERY_DATA = [
   {
-    "src": "https://picsum.photos/seed/art01/800/1000",
-    "title": "Golden Afternoon",
-    "category": "oil",
-    "medium": "Oil on Canvas",
-    "year": "2024"
+    "src": "images/IMG-20260321-WA0000.jpg",
+    "title": "untitled #1",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   },
   {
-    "src": "https://picsum.photos/seed/art02/800/600",
-    "title": "Morning Mist",
-    "category": "watercolor",
-    "medium": "Watercolor",
-    "year": "2024"
+    "src": "images/IMG-20260321-WA0001.jpg",
+    "title": "untitled #2",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   },
   {
-    "src": "https://picsum.photos/seed/art03/800/800",
-    "title": "Chromatic Drift",
-    "category": "abstract",
-    "medium": "Oil",
-    "year": "2023"
+    "src": "images/IMG-20260321-WA0002.jpg",
+    "title": "untitled #3",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   },
   {
-    "src": "https://picsum.photos/seed/art04/800/1100",
-    "title": "Quiet Shore",
-    "category": "oil",
-    "medium": "Oil on Canvas",
-    "year": "2023"
+    "src": "images/IMG-20260321-WA0003.jpg",
+    "title": "untitled #4",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   },
   {
-    "src": "https://picsum.photos/seed/art05/800/700",
-    "title": "Bloom Study III",
-    "category": "watercolor",
-    "medium": "Watercolor",
-    "year": "2023"
+    "src": "images/IMG-20260321-WA0004.jpg",
+    "title": "untitled #5",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   },
   {
-    "src": "https://picsum.photos/seed/art06/800/900",
-    "title": "Tidal Memory",
-    "category": "abstract",
-    "medium": "Mixed Media",
-    "year": "2022"
+    "src": "images/IMG-20260321-WA0005.jpg",
+    "title": "untitled #6",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   },
   {
-    "src": "https://picsum.photos/seed/art07/800/650",
-    "title": "The Valley",
-    "category": "oil",
-    "medium": "Oil on Canvas",
-    "year": "2022"
+    "src": "images/IMG-20260321-WA0006.jpg",
+    "title": "untitled #7",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   },
   {
-    "src": "https://picsum.photos/seed/art08/800/1050",
-    "title": "First Light",
-    "category": "watercolor",
-    "medium": "Watercolor",
-    "year": "2022"
+    "src": "images/IMG-20260321-WA0007.jpg",
+    "title": "untitled #8",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   },
   {
-    "src": "https://picsum.photos/seed/art09/800/750",
-    "title": "Equilibrium",
-    "category": "abstract",
-    "medium": "Abstract",
-    "year": "2021"
+    "src": "images/IMG-20260321-WA0008.jpg",
+    "title": "untitled #9",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/IMG-20260321-WA0009.jpg",
+    "title": "untitled #10",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/IMG-20260321-WA0010.jpg",
+    "title": "untitled #11",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/IMG-20260321-WA0011.jpg",
+    "title": "untitled #12",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/IMG-20260321-WA0014.jpg",
+    "title": "untitled #13",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
   }
 ];
