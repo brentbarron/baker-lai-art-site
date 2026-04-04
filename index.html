@@ -21,7 +21,6 @@
       <ul class="nav__links" id="navLinks">
         <li><a href="#gallery" class="nav__link">Gallery</a></li>
         <li><a href="#about" class="nav__link">About</a></li>
-        <li><a href="#contact" class="nav__link">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -51,6 +50,12 @@
       <!-- Gallery Grid — populated from gallery.json -->
       <div class="gallery-grid" id="galleryGrid"></div>
     </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <p class="cta-band__text">For purchase or gallery inquiries,</p>
+    <a href="mailto:bakerlaiart@gmail.com" class="btn btn--solid">Get in Touch</a>
   </section>
 
   <!-- About -->
@@ -115,41 +120,8 @@
             <span class="stat__label">Exhibitions</span>
           </div>
         </div>
-        <a href="#contact" class="btn btn--solid">Get in Touch</a>
+        <a href="mailto:bakerlaiart@gmail.com" class="btn btn--solid">Get in Touch</a>
       </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section class="contact-section" id="contact">
-    <div class="container contact-section__inner">
-      <header class="section-header">
-        <p class="section-eyebrow">Inquiries</p>
-        <h2 class="section-title">Contact</h2>
-        <p class="section-subtitle">For purchase inquiries, commissions, or exhibition bookings.</p>
-      </header>
-      <form class="contact-form" id="contactForm" novalidate>
-        <div class="contact-form__row">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="your@email.com" required />
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" placeholder="What is this regarding?" />
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
-        </div>
-        <button type="submit" class="btn btn--solid">Send Message</button>
-        <p class="contact-form__success" id="formSuccess">Thank you — your message has been sent.</p>
-      </form>
     </div>
   </section>
 
