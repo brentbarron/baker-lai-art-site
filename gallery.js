@@ -8,7 +8,7 @@
 window.GALLERY_DATA = [
   {
     "src": "images/eyes.jpg",
-    "title": "Eyes",
+    "title": "seeing in colour",
     "medium": "acrylic",
     "dimensions": "24x36",
     "year": "2026",
@@ -24,7 +24,7 @@ window.GALLERY_DATA = [
   },
   {
     "src": "images/polkadots.jpg",
-    "title": "Polka Dots",
+    "title": "under the sea",
     "medium": "acrylic",
     "dimensions": "24x36",
     "year": "2026",
@@ -40,7 +40,7 @@ window.GALLERY_DATA = [
   },
   {
     "src": "images/sunbeam.jpg",
-    "title": "Sunbeam",
+    "title": "you're golden",
     "medium": "acrylic",
     "dimensions": "24x36",
     "year": "2026",
