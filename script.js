@@ -58,6 +58,7 @@ function buildGalleryItem(entry, index) {
   const medium     = entry.medium     || '';
   const dimensions = entry.dimensions || '';
   const year       = entry.year       || '';
+  const notes      = entry.notes      || '';
   const meta       = [medium, dimensions, year].filter(Boolean).join(' \u2014 ');
 
   const article = document.createElement('article');
@@ -74,6 +75,7 @@ function buildGalleryItem(entry, index) {
     <div class="gallery-item__info">
       <h3 class="gallery-item__title">${title}</h3>
       ${meta ? `<p class="gallery-item__meta">${meta}</p>` : ''}
+      ${notes ? `<p class="gallery-item__notes">${notes}</p>` : ''}
     </div>
   `;
 
@@ -124,6 +126,7 @@ function initGallery() {
     const img   = item.querySelector('img');
     const title = item.querySelector('.gallery-item__title');
     const meta  = item.querySelector('.gallery-item__meta');
+    const notes = item.querySelector('.gallery-item__notes');
 
     lightboxImg.classList.add('loading');
 
@@ -133,7 +136,7 @@ function initGallery() {
       lightboxImg.src           = img.src;
       lightboxImg.alt           = img.alt;
       lightboxTitle.textContent = title ? title.textContent : '';
-      lightboxMeta.textContent  = meta  ? meta.textContent  : '';
+      lightboxMeta.textContent  = [meta ? meta.textContent : '', notes ? notes.textContent : ''].filter(Boolean).join(' — ');
       lightboxImg.classList.remove('loading');
     };
   }

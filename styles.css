@@ -499,6 +499,15 @@ ul {
   margin-top: 0.2rem;
 }
 
+.gallery-item__notes {
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-top: 0.3rem;
+}
+
 /* ============================================================
    CTA BAND
    ============================================================ */
@@ -635,20 +644,6 @@ ul {
 .footer__copy {
   font-size: 0.75rem;
   letter-spacing: 0.05em;
-}
-
-.footer__social {
-  display: flex;
-  gap: 1.25rem;
-}
-
-.footer__social a {
-  color: rgba(255,255,255,0.5);
-  transition: color var(--transition);
-}
-
-.footer__social a:hover {
-  color: var(--color-white);
 }
 
 /* ============================================================
