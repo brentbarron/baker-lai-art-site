@@ -293,7 +293,7 @@ ul {
   background-color: #1a1815;
   background-image:
     linear-gradient(to bottom, rgba(15,10,10,0.55) 0%, rgba(15,10,10,0.35) 50%, rgba(15,10,10,0.75) 100%),
-    url('images/Magenta Eyes.jpg');
+    url('images/eyes.jpg');
   background-size: cover;
   background-position: center;
 }

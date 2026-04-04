@@ -7,6 +7,41 @@
 
 window.GALLERY_DATA = [
   {
+    "src": "images/eyes.jpg",
+    "title": "Eyes",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/otherworld.jpg",
+    "title": "Otherworld",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/polkadots.jpg",
+    "title": "Polka Dots",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/starburst.jpg",
+    "title": "Starburst",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/sunbeam.jpg",
+    "title": "Sunbeam",
+    "medium": "acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
     "src": "images/IMG-20260321-WA0000.jpg",
     "title": "untitled #1",
     "medium": "acrylic",
@@ -42,57 +77,22 @@ window.GALLERY_DATA = [
     "year": "2026"
   },
   {
-    "src": "images/IMG-20260321-WA0005.jpg",
+    "src": "images/IMG-20260321-WA0009.jpg",
     "title": "untitled #6",
     "medium": "acrylic",
     "dimensions": "24x36",
     "year": "2026"
   },
   {
-    "src": "images/IMG-20260321-WA0006.jpg",
+    "src": "images/IMG-20260321-WA0011.jpg",
     "title": "untitled #7",
     "medium": "acrylic",
     "dimensions": "24x36",
     "year": "2026"
   },
   {
-    "src": "images/IMG-20260321-WA0007.jpg",
-    "title": "untitled #8",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026"
-  },
-  {
-    "src": "images/IMG-20260321-WA0008.jpg",
-    "title": "untitled #9",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026"
-  },
-  {
-    "src": "images/IMG-20260321-WA0009.jpg",
-    "title": "untitled #10",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026"
-  },
-  {
-    "src": "images/IMG-20260321-WA0010.jpg",
-    "title": "untitled #11",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026"
-  },
-  {
-    "src": "images/IMG-20260321-WA0011.jpg",
-    "title": "untitled #12",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026"
-  },
-  {
     "src": "images/IMG-20260321-WA0014.jpg",
-    "title": "untitled #13",
+    "title": "untitled #8",
     "medium": "acrylic",
     "dimensions": "24x36",
     "year": "2026"
