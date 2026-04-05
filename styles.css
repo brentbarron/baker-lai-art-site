@@ -539,34 +539,9 @@ ul {
 }
 
 .about-section__inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(3rem, 6vw, 7rem);
-  align-items: center;
+  max-width: 740px;
 }
 
-.about-section__img-frame {
-  position: relative;
-}
-
-.about-section__img-frame img {
-  width: 100%;
-  display: block;
-  filter: saturate(0.9);
-}
-
-.about-artist-mark {
-  width: 100%;
-  display: block;
-}
-
-.about-section__img-frame::before {
-  content: '';
-  position: absolute;
-  inset: -1.25rem 1.25rem 1.25rem -1.25rem;
-  border: 1px solid var(--color-accent);
-  z-index: -1;
-}
 
 .about-section__body {
   font-size: 1rem;
@@ -605,17 +580,6 @@ ul {
   margin-top: 0.3rem;
 }
 
-@media (max-width: 800px) {
-  .about-section__inner {
-    grid-template-columns: 1fr;
-  }
-  .about-section__img-frame::before {
-    display: none;
-  }
-  .about-section__image-col {
-    max-width: 480px;
-  }
-}
 
 /* ============================================================
    FOOTER
