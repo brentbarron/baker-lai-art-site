@@ -7,106 +7,97 @@
 
 window.GALLERY_DATA = [
   {
-    "src": "images/eyes.jpg",
+    "src": "images/1.jpg",
     "title": "seeing in colour",
-    "medium": "acrylic",
+    "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/otherworld.jpg",
-    "title": "Otherworld",
-    "medium": "acrylic",
+    "src": "images/2.jpg",
+    "title": "im queer bitch",
+    "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/polkadots.jpg",
+    "src": "images/3.jpg",
+    "title": "otherworld",
+    "medium": "Acrylic",
+    "dimensions": "30x40",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/4.jpg",
     "title": "under the sea",
-    "medium": "acrylic",
-    "dimensions": "24x36",
+    "medium": "Acrylic",
+    "dimensions": "30x40",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/starburst.jpg",
-    "title": "Starburst",
-    "medium": "acrylic",
-    "dimensions": "24x36",
+    "src": "images/5.jpg",
+    "title": "wings",
+    "medium": "Acrylic",
+    "year": "2026"
+  },
+  {
+    "src": "images/6.jpg",
+    "title": "awe",
+    "medium": "Acrylic",
+    "year": "2026"
+  },
+  {
+    "src": "images/7.jpg",
+    "title": "hollaback girl",
+    "medium": "Mixed Media",
+    "year": "2026"
+  },
+  {
+    "src": "images/8.jpg",
+    "title": "bosphorus",
+    "medium": "Acrylic",
+    "year": "2026"
+  },
+  {
+    "src": "images/9.jpg",
+    "title": "galaxial",
+    "medium": "Acrylic",
+    "year": "2026"
+  },
+  {
+    "src": "images/10.jpg",
+    "title": "maps",
+    "medium": "Acrylic",
+    "year": "2026"
+  },
+  {
+    "src": "images/11.jpg",
+    "title": "man",
+    "medium": "Acrylic",
+    "year": "2026"
+  },
+  {
+    "src": "images/12.jpg",
+    "title": "quadrophenia",
+    "year": "2026"
+  },
+  {
+    "src": "images/13.jpg",
+    "title": "starburst",
+    "medium": "Acrylic",
+    "dimensions": "30x40",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/sunbeam.jpg",
+    "src": "images/14.jpg",
     "title": "you're golden",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/IMG-20260321-WA0000.jpg",
-    "title": "untitled #1",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/IMG-20260321-WA0001.jpg",
-    "title": "untitled #2",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/IMG-20260321-WA0002.jpg",
-    "title": "untitled #3",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/IMG-20260321-WA0003.jpg",
-    "title": "untitled #4",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/IMG-20260321-WA0004.jpg",
-    "title": "untitled #5",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/IMG-20260321-WA0009.jpg",
-    "title": "untitled #6",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/IMG-20260321-WA0011.jpg",
-    "title": "untitled #7",
-    "medium": "acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/IMG-20260321-WA0014.jpg",
-    "title": "untitled #8",
-    "medium": "acrylic",
-    "dimensions": "24x36",
+    "medium": "Acrylic",
+    "dimensions": "30x40",
     "year": "2026",
     "notes": "available for purchase"
   }
