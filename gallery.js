@@ -108,5 +108,11 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "18x24",
     "year": "2026"
+  },
+  {
+    "src": "images/16.jpg",
+    "title": "Queen",
+    "medium": "Acrylic",
+    "year": "2026"
   }
 ];
