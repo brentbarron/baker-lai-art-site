@@ -58,19 +58,19 @@ window.GALLERY_DATA = [
   },
   {
     "src": "images/8.jpg",
-    "title": "bosphorus",
+    "title": "Bosphorus",
     "medium": "Acrylic",
     "year": "2026"
   },
   {
     "src": "images/9.jpg",
-    "title": "galaxial",
+    "title": "Galaxial",
     "medium": "Acrylic",
     "year": "2026"
   },
   {
     "src": "images/10.jpg",
-    "title": "maps",
+    "title": "Maps",
     "medium": "Acrylic",
     "year": "2026"
   },
@@ -82,7 +82,7 @@ window.GALLERY_DATA = [
   },
   {
     "src": "images/12.jpg",
-    "title": "quadrophenia",
+    "title": "Quadrophenia",
     "medium": "Acrylic",
     "year": "2026"
   },
@@ -101,5 +101,12 @@ window.GALLERY_DATA = [
     "dimensions": "30x40",
     "year": "2026",
     "notes": "available for purchase"
+  },
+  {
+    "src": "images/15.jpg",
+    "title": "How she glows",
+    "medium": "Mixed Media",
+    "dimensions": "18x24",
+    "year": "2026"
   }
 ];
