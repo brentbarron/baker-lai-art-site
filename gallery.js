@@ -7,32 +7,32 @@
 
 window.GALLERY_DATA = [
   {
-    "src": "images/1.jpg",
-    "title": "seeing in colour",
+    "src": "images/eyes.jpg",
+    "title": "Seeing in colour",
     "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/2.jpg",
-    "title": "im queer bitch",
+    "src": "images/IMG-20260321-WA0004.jpg",
+    "title": "I'm Queer bitch!",
     "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/3.jpg",
-    "title": "otherworld",
+    "src": "images/otherworld.jpg",
+    "title": "From clarity to insight",
     "medium": "Acrylic",
     "dimensions": "30x40",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/4.jpg",
-    "title": "under the sea",
+    "src": "images/polkadots.jpg",
+    "title": "Weightless",
     "medium": "Acrylic",
     "dimensions": "30x40",
     "year": "2026",
@@ -40,19 +40,19 @@ window.GALLERY_DATA = [
   },
   {
     "src": "images/5.jpg",
-    "title": "wings",
+    "title": "Galaxies in my eyes",
     "medium": "Acrylic",
     "year": "2026"
   },
   {
     "src": "images/6.jpg",
-    "title": "awe",
+    "title": "Pandora",
     "medium": "Acrylic",
     "year": "2026"
   },
   {
     "src": "images/7.jpg",
-    "title": "hollaback girl",
+    "title": "There's a story",
     "medium": "Mixed Media",
     "year": "2026"
   },
@@ -76,26 +76,27 @@ window.GALLERY_DATA = [
   },
   {
     "src": "images/11.jpg",
-    "title": "man",
+    "title": "Under the tides",
     "medium": "Acrylic",
     "year": "2026"
   },
   {
     "src": "images/12.jpg",
     "title": "quadrophenia",
+    "medium": "Acrylic",
     "year": "2026"
   },
   {
-    "src": "images/13.jpg",
-    "title": "starburst",
+    "src": "images/starburst.jpg",
+    "title": "Starburst",
     "medium": "Acrylic",
     "dimensions": "30x40",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/14.jpg",
-    "title": "you're golden",
+    "src": "images/sunbeam.jpg",
+    "title": "You're golden",
     "medium": "Acrylic",
     "dimensions": "30x40",
     "year": "2026",
