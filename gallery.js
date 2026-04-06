@@ -7,7 +7,7 @@
 
 window.GALLERY_DATA = [
   {
-    "src": "images/eyes.jpg",
+    "src": "images/1.jpg",
     "title": "Seeing in colour",
     "medium": "Acrylic",
     "dimensions": "24x36",
@@ -15,7 +15,7 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/IMG-20260321-WA0004.jpg",
+    "src": "images/2.jpg",
     "title": "I'm Queer bitch!",
     "medium": "Acrylic",
     "dimensions": "24x36",
@@ -23,7 +23,7 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/otherworld.jpg",
+    "src": "images/3.jpg",
     "title": "From clarity to insight",
     "medium": "Acrylic",
     "dimensions": "30x40",
@@ -31,7 +31,7 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/polkadots.jpg",
+    "src": "images/4.jpg",
     "title": "Weightless",
     "medium": "Acrylic",
     "dimensions": "30x40",
@@ -87,7 +87,7 @@ window.GALLERY_DATA = [
     "year": "2026"
   },
   {
-    "src": "images/starburst.jpg",
+    "src": "images/13.jpg",
     "title": "Starburst",
     "medium": "Acrylic",
     "dimensions": "30x40",
@@ -95,7 +95,7 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/sunbeam.jpg",
+    "src": "images/14.jpg",
     "title": "You're golden",
     "medium": "Acrylic",
     "dimensions": "30x40",
