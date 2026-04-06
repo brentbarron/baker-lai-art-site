@@ -42,6 +42,7 @@ window.GALLERY_DATA = [
     "src": "images/5.jpg",
     "title": "Galaxies in my eyes",
     "medium": "Acrylic",
+    "dimensions": "24x36",
     "year": "2026"
   },
   {
@@ -60,6 +61,7 @@ window.GALLERY_DATA = [
     "src": "images/8.jpg",
     "title": "Bosphorus",
     "medium": "Acrylic",
+    "dimensions": "18x24",
     "year": "2026"
   },
   {
@@ -72,18 +74,21 @@ window.GALLERY_DATA = [
     "src": "images/10.jpg",
     "title": "Maps",
     "medium": "Acrylic",
+    "dimensions": "24x36",
     "year": "2026"
   },
   {
     "src": "images/11.jpg",
     "title": "Under the tides",
     "medium": "Acrylic",
+    "dimensions": "18x24",
     "year": "2026"
   },
   {
     "src": "images/12.jpg",
     "title": "Quadrophenia",
     "medium": "Acrylic",
+    "dimensions": "18x24",
     "year": "2026"
   },
   {
@@ -114,5 +119,28 @@ window.GALLERY_DATA = [
     "title": "Queen",
     "medium": "Acrylic",
     "year": "2026"
+  },
+  {
+    "src": "images/17.jpg",
+    "title": "Sun-kissed",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/21.jpg",
+    "title": "Dream with me",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/24.jpg",
+    "title": "Smile",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "notes": "available for purchase"
   }
 ];
