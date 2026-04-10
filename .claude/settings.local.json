@@ -3,7 +3,12 @@
     "allow": [
       "mcp__claude_ai_Notion__notion-search",
       "mcp__claude_ai_Notion__notion-get-teams",
-      "mcp__claude_ai_Notion__notion-fetch"
+      "mcp__claude_ai_Notion__notion-fetch",
+      "Bash(mv 1.jpg seeing-in-colour.jpg)",
+      "Bash(mv 2.jpg im-queer-bitch.jpg)",
+      "Bash(mv 3.jpg from-clarity-to-insight.jpg)",
+      "Bash(mv 4.jpg weightless.jpg)",
+      "Bash(mv 5.jpg galactic-stare.jpg)"
     ]
   }
 }
