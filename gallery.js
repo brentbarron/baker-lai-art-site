@@ -7,14 +7,6 @@
 
 window.GALLERY_DATA = [
   {
-    "src": "images/smile.jpg",
-    "title": "Smile",
-    "medium": "Mixed Media",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
     "src": "images/dreaming-in-colour.jpg",
     "title": "Dreaming in colour",
     "medium": "Mixed Media",
