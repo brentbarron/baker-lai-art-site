@@ -1,0 +1,34 @@
+name: Sync Notion Paintings
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # 2am UTC daily
+  workflow_dispatch:       # allows manual runs from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Notion sync
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python sync_notion.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add gallery.js images/
+          git diff --cached --quiet || git commit -m "chore: sync paintings from Notion"
+          git push
