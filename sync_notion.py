@@ -52,8 +52,13 @@ def notion_post(token, path, body):
         },
         method="POST",
     )
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read())
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode()
+        print(f"Notion API error {e.code}: {body}")
+        raise
 
 
 def fetch_all_paintings(token):
