@@ -7,19 +7,6 @@
 
 window.GALLERY_DATA = [
   {
-    "src": "images/dreaming-in-colour.jpg",
-    "title": "Dreaming in colour",
-    "medium": "Mixed Media",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/awkward-places-and-uncomfortable-positions-quartet.jpg",
-    "title": "Awkward places and uncomfortable positions  (quartet)",
-    "medium": "Acrylic",
-    "year": "2026"
-  },
-  {
     "src": "images/dream-with-me.jpg",
     "title": "Dream with me",
     "medium": "Mixed Media",
@@ -28,30 +15,17 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/gemini.jpg",
-    "title": "Gemini",
-    "medium": "Acrylic",
-    "year": "2026"
-  },
-  {
-    "src": "images/on-the-radar.jpg",
-    "title": "On the radar",
+    "src": "images/dreaming-in-colour.jpg",
+    "title": "Dreaming in colour",
     "medium": "Mixed Media",
     "year": "2026",
     "notes": "available for purchase"
   },
   {
-    "src": "images/sun-kissed.jpg",
-    "title": "Sun-kissed",
-    "medium": "Mixed Media",
+    "src": "images/im-queer-bitch.jpg",
+    "title": "I\u2019m Queer bitch!",
+    "medium": "Acrylic",
     "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/queen.jpg",
-    "title": "Queen",
-    "medium": "Acrylic",
     "year": "2026",
     "notes": "available for purchase"
   },
@@ -60,6 +34,35 @@ window.GALLERY_DATA = [
     "title": "How she glows",
     "medium": "Mixed Media",
     "dimensions": "18x24",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/she-knows.jpg",
+    "title": "She knows",
+    "medium": "Acrylic",
+    "dimensions": "24x36",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/the-story-behind-the-image.jpg",
+    "title": "The story behind the image",
+    "medium": "Mixed Media",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/pandora.jpg",
+    "title": "Pandora",
+    "medium": "Acrylic",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/queen.jpg",
+    "title": "Queen",
+    "medium": "Acrylic",
     "year": "2026",
     "notes": "available for purchase"
   },
@@ -80,10 +83,45 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/quadrophenia.jpg",
-    "title": "Quadrophenia",
+    "src": "images/seeing-in-colour.jpg",
+    "title": "Seeing in colour",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/on-the-radar.jpg",
+    "title": "On the radar",
+    "medium": "Mixed Media",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/brent.jpg",
+    "title": "Brent",
+    "medium": "Acrylic",
+    "dimensions": "36x24",
+    "year": "2026"
+  },
+  {
+    "src": "images/awkward-places-and-uncomfortable-positions-quartet.jpg",
+    "title": "Awkward places and uncomfortable positions  (quartet)",
+    "medium": "Acrylic",
+    "year": "2026"
+  },
+  {
+    "src": "images/bosphorus.jpg",
+    "title": "Bosphorus",
     "medium": "Acrylic",
     "dimensions": "18x24",
+    "year": "2026"
+  },
+  {
+    "src": "images/weightless.jpg",
+    "title": "Weightless",
+    "medium": "Mixed Media",
+    "dimensions": "30x40",
     "year": "2026",
     "notes": "available for purchase"
   },
@@ -96,10 +134,18 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/maps.jpg",
-    "title": "Maps",
+    "src": "images/sun-kissed.jpg",
+    "title": "Sun-kissed",
     "medium": "Mixed Media",
     "dimensions": "24x36",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/quadrophenia.jpg",
+    "title": "Quadrophenia",
+    "medium": "Acrylic",
+    "dimensions": "18x24",
     "year": "2026",
     "notes": "available for purchase"
   },
@@ -107,42 +153,6 @@ window.GALLERY_DATA = [
     "src": "images/galaxial.jpg",
     "title": "Galaxial",
     "medium": "Mixed Media",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/bosphorus.jpg",
-    "title": "Bosphorus",
-    "medium": "Acrylic",
-    "dimensions": "18x24",
-    "year": "2026"
-  },
-  {
-    "src": "images/the-story-behind-the-image.jpg",
-    "title": "The story behind the image",
-    "medium": "Mixed Media",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/pandora.jpg",
-    "title": "Pandora",
-    "medium": "Acrylic",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/galactic-stare.jpg",
-    "title": "Galactic stare",
-    "medium": "Acrylic",
-    "dimensions": "24x36",
-    "year": "2026"
-  },
-  {
-    "src": "images/weightless.jpg",
-    "title": "Weightless",
-    "medium": "Mixed Media",
-    "dimensions": "30x40",
     "year": "2026",
     "notes": "available for purchase"
   },
@@ -155,35 +165,22 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/im-queer-bitch.jpg",
-    "title": "I\u2019m Queer bitch!",
-    "medium": "Acrylic",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/seeing-in-colour.jpg",
-    "title": "Seeing in colour",
-    "medium": "Mixed Media",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/brent.jpg",
-    "title": "Brent",
-    "medium": "Acrylic",
-    "dimensions": "36x24",
+    "src": "images/explosions-in-the-sky.jpg",
+    "title": "Explosions in the sky",
     "year": "2026"
   },
   {
-    "src": "images/she-knows.jpg",
-    "title": "She knows",
+    "src": "images/gemini.jpg",
+    "title": "Gemini",
+    "medium": "Acrylic",
+    "year": "2026"
+  },
+  {
+    "src": "images/galactic-stare.jpg",
+    "title": "Galactic stare",
     "medium": "Acrylic",
     "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
+    "year": "2026"
   },
   {
     "src": "images/carol.jpg",
@@ -191,5 +188,13 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026"
+  },
+  {
+    "src": "images/maps.jpg",
+    "title": "Maps",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "notes": "available for purchase"
   }
 ];
