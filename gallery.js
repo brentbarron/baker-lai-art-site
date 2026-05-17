@@ -7,14 +7,6 @@
 
 window.GALLERY_DATA = [
   {
-    "src": "images/smile.jpg",
-    "title": "Smile",
-    "medium": "Mixed Media",
-    "dimensions": "24x36",
-    "year": "2026",
-    "notes": "available for purchase"
-  },
-  {
     "src": "images/dreaming-in-colour.jpg",
     "title": "Dreaming in colour",
     "medium": "Mixed Media",
@@ -34,6 +26,12 @@ window.GALLERY_DATA = [
     "dimensions": "24x36",
     "year": "2026",
     "notes": "available for purchase"
+  },
+  {
+    "src": "images/gemini.jpg",
+    "title": "Gemini",
+    "medium": "Acrylic",
+    "year": "2026"
   },
   {
     "src": "images/on-the-radar.jpg",
@@ -117,12 +115,11 @@ window.GALLERY_DATA = [
     "title": "Bosphorus",
     "medium": "Acrylic",
     "dimensions": "18x24",
-    "year": "2026",
-    "notes": "available for purchase"
+    "year": "2026"
   },
   {
-    "src": "images/theres-a-story.jpg",
-    "title": "There\u2019s a story",
+    "src": "images/the-story-behind-the-image.jpg",
+    "title": "The story behind the image",
     "medium": "Mixed Media",
     "year": "2026",
     "notes": "available for purchase"
@@ -169,6 +166,27 @@ window.GALLERY_DATA = [
     "src": "images/seeing-in-colour.jpg",
     "title": "Seeing in colour",
     "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/brent.jpg",
+    "title": "Brent",
+    "medium": "Acrylic",
+    "dimensions": "36x24",
+    "year": "2026"
+  },
+  {
+    "src": "images/brent.jpg",
+    "title": "Brent",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
+    "src": "images/she-knows.jpg",
+    "title": "She knows",
+    "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
     "notes": "available for purchase"
