@@ -178,12 +178,6 @@ window.GALLERY_DATA = [
     "year": "2026"
   },
   {
-    "src": "images/brent.jpg",
-    "title": "Brent",
-    "dimensions": "24x36",
-    "year": "2026"
-  },
-  {
     "src": "images/she-knows.jpg",
     "title": "She knows",
     "medium": "Acrylic",
