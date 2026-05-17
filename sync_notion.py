@@ -113,7 +113,7 @@ def write_gallery_js(entries):
         "window.GALLERY_DATA = [\n"
     )
 
-    FIELD_ORDER = ["src", "title", "medium", "dimensions", "year", "notes"]
+    FIELD_ORDER = ["src", "title", "medium", "dimensions", "year", "category", "notes"]
     item_strs = []
     for entry in entries:
         lines = []
@@ -187,10 +187,14 @@ def main():
         available  = props.get("Available for Sale", {}).get("checkbox", False)
         notes      = "available for purchase" if available else None
 
+        category_obj = props.get("Category", {}).get("select") or {}
+        category     = category_obj.get("name") or None
+
         entry = {"src": f"images/{img_file}", "title": title}
         if medium:     entry["medium"]     = medium
         if dimensions: entry["dimensions"] = dimensions
         entry["year"] = "2026"
+        if category:   entry["category"]   = category
         if notes:      entry["notes"]      = notes
 
         entries.append(entry)

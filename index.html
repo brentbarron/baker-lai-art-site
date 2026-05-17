@@ -32,6 +32,7 @@
       <h1 class="hero__title">Carol<br /><em>Baker-Lai</em></h1>
       <p class="hero__subtitle">Acrylic &amp; Mixed Media</p>
       <a href="#gallery" class="btn btn--outline">View Gallery</a>
+      <div class="hero__filters" id="heroFilters"></div>
     </div>
     <div class="hero__scroll">
       <span>Scroll</span>
@@ -46,6 +47,13 @@
         <p class="section-eyebrow">Her Work</p>
         <h2 class="section-title">Gallery</h2>
       </header>
+
+      <!-- Category filter dropdown -->
+      <div class="gallery-filter-bar" id="galleryFilterBar" hidden>
+        <select class="gallery-filter-select" id="galleryFilterSelect" aria-label="Filter by category">
+          <option value="all">All Works</option>
+        </select>
+      </div>
 
       <!-- Gallery Grid — populated from gallery.json -->
       <div class="gallery-grid" id="galleryGrid"></div>

@@ -377,6 +377,75 @@ ul {
   padding: clamp(4rem, 8vw, 8rem) 0;
 }
 
+/* Hero category filter buttons */
+.hero__filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.hero__filter-btn {
+  padding: 0.35rem 1.1rem;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.25);
+  cursor: pointer;
+  transition: var(--transition);
+  border-radius: 2px;
+}
+
+.hero__filter-btn:hover {
+  color: var(--color-white);
+  border-color: rgba(255,255,255,0.55);
+  background: rgba(255,255,255,0.15);
+}
+
+.hero__filter-btn.active {
+  color: var(--color-accent-lt);
+  border-color: var(--color-accent-lt);
+  background: rgba(155,125,74,0.15);
+}
+
+/* Gallery filter dropdown */
+.gallery-filter-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+  margin-top: -1.5rem;
+}
+
+.gallery-filter-select {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%237A7770'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  border: 1px solid var(--color-border);
+  padding: 0.5rem 2.25rem 0.5rem 1rem;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+.gallery-filter-select:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+
 /* Filter tabs */
 .filter-tabs {
   display: flex;

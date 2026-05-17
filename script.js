@@ -64,6 +64,7 @@ function buildGalleryItem(entry, index) {
   const article = document.createElement('article');
   article.className = 'gallery-item';
   article.dataset.index = index;
+  article.dataset.category = entry.category || '';
 
   article.innerHTML = `
     <div class="gallery-item__img-wrap">
@@ -191,6 +192,60 @@ function initGallery() {
     const delta = e.changedTouches[0].clientX - touchStartX;
     if (Math.abs(delta) > 50) delta < 0 ? nextImage() : prevImage();
   }, { passive: true });
+
+  /* ---- Category filters ---- */
+  const categories = [...new Set(
+    (window.GALLERY_DATA || []).map(e => e.category).filter(Boolean)
+  )].sort();
+
+  if (categories.length > 0) {
+    const heroFilters   = document.getElementById('heroFilters');
+    const filterBar     = document.getElementById('galleryFilterBar');
+    const filterSelect  = document.getElementById('galleryFilterSelect');
+
+    filterBar.removeAttribute('hidden');
+
+    const allCategories = ['All', ...categories];
+
+    function filterGallery(category) {
+      items.forEach(item => {
+        const match = category === 'All' || item.dataset.category === category;
+        item.classList.toggle('hidden', !match);
+      });
+    }
+
+    function syncControls(active) {
+      heroFilters.querySelectorAll('.hero__filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.category === active);
+      });
+      filterSelect.value = active;
+    }
+
+    allCategories.forEach(cat => {
+      const btn = document.createElement('button');
+      btn.className = 'hero__filter-btn' + (cat === 'All' ? ' active' : '');
+      btn.textContent = cat;
+      btn.dataset.category = cat;
+      btn.addEventListener('click', () => {
+        syncControls(cat);
+        filterGallery(cat);
+        document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
+      });
+      heroFilters.appendChild(btn);
+
+      if (cat !== 'All') {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = cat;
+        filterSelect.appendChild(opt);
+      }
+    });
+
+    filterSelect.addEventListener('change', () => {
+      syncControls(filterSelect.value);
+      filterGallery(filterSelect.value);
+    });
+  }
 
   /* ---- Scroll reveal ---- */
   function addRevealClass(selector, stagger = false) {

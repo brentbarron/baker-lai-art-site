@@ -8,7 +8,8 @@
       "Bash(mv 2.jpg im-queer-bitch.jpg)",
       "Bash(mv 3.jpg from-clarity-to-insight.jpg)",
       "Bash(mv 4.jpg weightless.jpg)",
-      "Bash(mv 5.jpg galactic-stare.jpg)"
+      "Bash(mv 5.jpg galactic-stare.jpg)",
+      "Bash(git checkout *)"
     ]
   }
 }
