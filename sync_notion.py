@@ -67,7 +67,7 @@ def fetch_all_paintings(token):
     while True:
         body = {
             "filter": {"property": "Include on Website", "checkbox": {"equals": True}},
-            "sorts": [{"property": "ID", "direction": "descending"}],
+            "sorts": [{"property": "Order", "direction": "ascending"}],
         }
         if cursor:
             body["start_cursor"] = cursor
