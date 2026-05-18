@@ -38,6 +38,13 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
+    "src": "images/galactic-stare.jpg",
+    "title": "Galactic stare",
+    "medium": "Acrylic",
+    "dimensions": "24x36",
+    "year": "2026"
+  },
+  {
     "src": "images/she-knows.jpg",
     "title": "She knows",
     "medium": "Acrylic",
@@ -173,13 +180,6 @@ window.GALLERY_DATA = [
     "src": "images/gemini.jpg",
     "title": "Gemini",
     "medium": "Acrylic",
-    "year": "2026"
-  },
-  {
-    "src": "images/galactic-stare.jpg",
-    "title": "Galactic stare",
-    "medium": "Acrylic",
-    "dimensions": "24x36",
     "year": "2026"
   },
   {
