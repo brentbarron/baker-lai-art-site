@@ -204,11 +204,12 @@ window.GALLERY_DATA = [
     "src": "images/gemini.jpg",
     "title": "Gemini",
     "medium": "Acrylic",
-    "year": "2026"
+    "year": "2026",
+    "category": "Abstract"
   },
   {
     "src": "images/smile.jpg",
-    "title": "Smile",
+    "title": "Smile!",
     "medium": "Mixed Media",
     "dimensions": "24x36",
     "year": "2026",
