@@ -64,6 +64,7 @@ function buildGalleryItem(entry, index) {
   const article = document.createElement('article');
   article.className = 'gallery-item';
   article.dataset.index = index;
+  article.dataset.category = entry.category || '';
 
   article.innerHTML = `
     <div class="gallery-item__img-wrap">
@@ -192,6 +193,37 @@ function initGallery() {
     if (Math.abs(delta) > 50) delta < 0 ? nextImage() : prevImage();
   }, { passive: true });
 
+  /* ---- Category filters ---- */
+  const categories = [...new Set(
+    (window.GALLERY_DATA || []).map(e => e.category).filter(Boolean)
+  )].sort();
+
+  if (categories.length > 0) {
+    const galleryTabs = document.getElementById('galleryFilterTabs');
+
+    galleryTabs.removeAttribute('hidden');
+
+    function filterGallery(category) {
+      items.forEach(item => {
+        const match = category === 'All' || item.dataset.category === category;
+        item.classList.toggle('hidden', !match);
+      });
+    }
+
+    ['All', ...categories].forEach(cat => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-tab' + (cat === 'All' ? ' active' : '');
+      btn.textContent = cat;
+      btn.dataset.category = cat;
+      btn.addEventListener('click', () => {
+        galleryTabs.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        filterGallery(cat);
+      });
+      galleryTabs.appendChild(btn);
+    });
+  }
+
   /* ---- Scroll reveal ---- */
   function addRevealClass(selector, stagger = false) {
     document.querySelectorAll(selector).forEach(el => {
@@ -243,23 +275,3 @@ function initGallery() {
 loadGallery();
 
 
-/* ============================================================
-   CONTACT FORM
-   ============================================================ */
-const contactForm = document.getElementById('contactForm');
-const formSuccess = document.getElementById('formSuccess');
-
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const btn = contactForm.querySelector('button[type="submit"]');
-  btn.textContent = 'Sending\u2026';
-  btn.disabled    = true;
-
-  setTimeout(() => {
-    contactForm.reset();
-    btn.textContent = 'Send Message';
-    btn.disabled    = false;
-    formSuccess.classList.add('visible');
-    setTimeout(() => formSuccess.classList.remove('visible'), 5000);
-  }, 1200);
-});

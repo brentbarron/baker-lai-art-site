@@ -12,6 +12,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "24x36",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -19,6 +20,7 @@ window.GALLERY_DATA = [
     "title": "Dreaming in colour",
     "medium": "Mixed Media",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -27,6 +29,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -35,6 +38,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "18x24",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -42,7 +46,8 @@ window.GALLERY_DATA = [
     "title": "Galactic stare",
     "medium": "Acrylic",
     "dimensions": "24x36",
-    "year": "2026"
+    "year": "2026",
+    "category": "Face Art"
   },
   {
     "src": "images/she-knows.jpg",
@@ -50,6 +55,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -57,6 +63,7 @@ window.GALLERY_DATA = [
     "title": "The story behind the image",
     "medium": "Mixed Media",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -64,6 +71,7 @@ window.GALLERY_DATA = [
     "title": "Pandora",
     "medium": "Acrylic",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -71,6 +79,7 @@ window.GALLERY_DATA = [
     "title": "Queen",
     "medium": "Acrylic",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -79,6 +88,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "30x40",
     "year": "2026",
+    "category": "Figures",
     "notes": "available for purchase"
   },
   {
@@ -87,6 +97,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "dimensions": "30x40",
     "year": "2026",
+    "category": "Figures",
     "notes": "available for purchase"
   },
   {
@@ -95,6 +106,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "24x36",
     "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   },
   {
@@ -102,6 +114,7 @@ window.GALLERY_DATA = [
     "title": "On the radar",
     "medium": "Mixed Media",
     "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   },
   {
@@ -109,20 +122,23 @@ window.GALLERY_DATA = [
     "title": "Brent",
     "medium": "Acrylic",
     "dimensions": "36x24",
-    "year": "2026"
+    "year": "2026",
+    "category": "Face Art"
   },
   {
     "src": "images/awkward-places-and-uncomfortable-positions-quartet.jpg",
     "title": "Awkward places and uncomfortable positions  (quartet)",
     "medium": "Acrylic",
-    "year": "2026"
+    "year": "2026",
+    "category": "Figures"
   },
   {
     "src": "images/bosphorus.jpg",
     "title": "Bosphorus",
     "medium": "Acrylic",
     "dimensions": "18x24",
-    "year": "2026"
+    "year": "2026",
+    "category": "Abstract"
   },
   {
     "src": "images/weightless.jpg",
@@ -130,6 +146,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "30x40",
     "year": "2026",
+    "category": "Figures",
     "notes": "available for purchase"
   },
   {
@@ -138,6 +155,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "dimensions": "18x24",
     "year": "2026",
+    "category": "Face Art",
     "notes": "available for purchase"
   },
   {
@@ -146,6 +164,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "24x36",
     "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   },
   {
@@ -154,6 +173,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "dimensions": "18x24",
     "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   },
   {
@@ -161,6 +181,7 @@ window.GALLERY_DATA = [
     "title": "Galaxial",
     "medium": "Mixed Media",
     "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   },
   {
@@ -169,12 +190,15 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "30x40",
     "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   },
   {
     "src": "images/explosions-in-the-sky.jpg",
     "title": "Explosions in the sky",
-    "year": "2026"
+    "medium": "Acrylic",
+    "year": "2026",
+    "category": "Abstract"
   },
   {
     "src": "images/gemini.jpg",
@@ -183,11 +207,21 @@ window.GALLERY_DATA = [
     "year": "2026"
   },
   {
+    "src": "images/smile.jpg",
+    "title": "Smile",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/carol.jpg",
     "title": "Carol",
     "medium": "Acrylic",
     "dimensions": "24x36",
-    "year": "2026"
+    "year": "2026",
+    "category": "Face Art"
   },
   {
     "src": "images/maps.jpg",
@@ -195,6 +229,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "dimensions": "24x36",
     "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   }
 ];
