@@ -377,41 +377,6 @@ ul {
   padding: clamp(4rem, 8vw, 8rem) 0;
 }
 
-/* Hero category filter buttons */
-.hero__filters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 0.25rem;
-}
-
-.hero__filter-btn {
-  padding: 0.35rem 1.1rem;
-  font-family: var(--font-sans);
-  font-size: 0.65rem;
-  font-weight: 400;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.7);
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.25);
-  cursor: pointer;
-  transition: var(--transition);
-  border-radius: 2px;
-}
-
-.hero__filter-btn:hover {
-  color: var(--color-white);
-  border-color: rgba(255,255,255,0.55);
-  background: rgba(255,255,255,0.15);
-}
-
-.hero__filter-btn.active {
-  color: var(--color-accent-lt);
-  border-color: var(--color-accent-lt);
-  background: rgba(155,125,74,0.15);
-}
 
 /* Gallery filter dropdown */
 .gallery-filter-bar {

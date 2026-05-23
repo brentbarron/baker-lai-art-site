@@ -199,13 +199,9 @@ function initGallery() {
   )].sort();
 
   if (categories.length > 0) {
-    const heroFilters   = document.getElementById('heroFilters');
-    const filterBar     = document.getElementById('galleryFilterBar');
-    const filterSelect  = document.getElementById('galleryFilterSelect');
+    const galleryTabs = document.getElementById('galleryFilterTabs');
 
-    filterBar.removeAttribute('hidden');
-
-    const allCategories = ['All', ...categories];
+    galleryTabs.removeAttribute('hidden');
 
     function filterGallery(category) {
       items.forEach(item => {
@@ -214,36 +210,17 @@ function initGallery() {
       });
     }
 
-    function syncControls(active) {
-      heroFilters.querySelectorAll('.hero__filter-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.category === active);
-      });
-      filterSelect.value = active;
-    }
-
-    allCategories.forEach(cat => {
+    ['All', ...categories].forEach(cat => {
       const btn = document.createElement('button');
-      btn.className = 'hero__filter-btn' + (cat === 'All' ? ' active' : '');
+      btn.className = 'filter-tab' + (cat === 'All' ? ' active' : '');
       btn.textContent = cat;
       btn.dataset.category = cat;
       btn.addEventListener('click', () => {
-        syncControls(cat);
+        galleryTabs.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
         filterGallery(cat);
-        document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
       });
-      heroFilters.appendChild(btn);
-
-      if (cat !== 'All') {
-        const opt = document.createElement('option');
-        opt.value = cat;
-        opt.textContent = cat;
-        filterSelect.appendChild(opt);
-      }
-    });
-
-    filterSelect.addEventListener('change', () => {
-      syncControls(filterSelect.value);
-      filterGallery(filterSelect.value);
+      galleryTabs.appendChild(btn);
     });
   }
 
@@ -298,23 +275,3 @@ function initGallery() {
 loadGallery();
 
 
-/* ============================================================
-   CONTACT FORM
-   ============================================================ */
-const contactForm = document.getElementById('contactForm');
-const formSuccess = document.getElementById('formSuccess');
-
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const btn = contactForm.querySelector('button[type="submit"]');
-  btn.textContent = 'Sending\u2026';
-  btn.disabled    = true;
-
-  setTimeout(() => {
-    contactForm.reset();
-    btn.textContent = 'Send Message';
-    btn.disabled    = false;
-    formSuccess.classList.add('visible');
-    setTimeout(() => formSuccess.classList.remove('visible'), 5000);
-  }, 1200);
-});
