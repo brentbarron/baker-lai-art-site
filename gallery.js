@@ -7,6 +7,15 @@
 
 window.GALLERY_DATA = [
   {
+    "src": "images/unbecoming.jpg",
+    "title": "Unbecoming",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/dream-with-me.jpg",
     "title": "Dream with me",
     "medium": "Mixed Media",
