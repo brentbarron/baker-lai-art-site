@@ -7,6 +7,33 @@
 
 window.GALLERY_DATA = [
   {
+    "src": "images/look-closer.jpg",
+    "title": "Look Closer",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/be-the-impossible-colour-in-the-straight-and-narrow.jpg",
+    "title": "Be the impossible colour in the straight and narrow",
+    "medium": "Acrylic",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/eyes-open-north-strong.jpg",
+    "title": "Eyes Open (North Strong)",
+    "medium": "Acrylic",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/unbecoming.jpg",
     "title": "Unbecoming",
     "medium": "Mixed Media",
