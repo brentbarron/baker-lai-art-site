@@ -16,8 +16,8 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/be-the-impossible-colour-in-the-straight-and-narrow.jpg",
-    "title": "Be the impossible colour in the straight and narrow",
+    "src": "images/answer-with-impossible-colour-when-the-world-gets-too-straight-and-narrow.jpg",
+    "title": "Answer with impossible colour when the world gets too straight and narrow",
     "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
