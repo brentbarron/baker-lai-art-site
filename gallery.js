@@ -268,5 +268,13 @@ window.GALLERY_DATA = [
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
+  },
+  {
+    "src": "images/shooting-for-the-stars.jpg",
+    "title": "Shooting for the stars",
+    "medium": "Mixed Media",
+    "dimensions": "18x24",
+    "year": "2026",
+    "category": "Abstract"
   }
 ];
