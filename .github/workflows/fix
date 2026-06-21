@@ -1,0 +1,8 @@
+- name: Commit and push
+  run: |
+    git config user.name "github-actions[bot]"
+    git config user.email "github-actions[bot]@users.noreply.github.com"
+    git add gallery.js images/
+    git diff --cached --quiet || git commit -m "chore: sync paintings from Notion"
+    git pull --rebase origin main
+    git push
