@@ -7,6 +7,15 @@
 
 window.GALLERY_DATA = [
   {
+    "src": "images/imagine-art-of-the-possible.jpg",
+    "title": "Imagine\u2026Art of the possible",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/look-closer.jpg",
     "title": "Look Closer",
     "medium": "Mixed Media",
@@ -242,15 +251,6 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Abstract"
-  },
-  {
-    "src": "images/smile.jpg",
-    "title": "Smile!",
-    "medium": "Mixed Media",
-    "dimensions": "24x36",
-    "year": "2026",
-    "category": "Face Art",
-    "notes": "available for purchase"
   },
   {
     "src": "images/carol.jpg",
