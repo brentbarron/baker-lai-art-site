@@ -120,6 +120,15 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
+    "src": "images/does-it-matter.jpg",
+    "title": "Does it matter?",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Abstract",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/queen.jpg",
     "title": "Queen",
     "medium": "Acrylic",
