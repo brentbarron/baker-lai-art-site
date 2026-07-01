@@ -52,6 +52,15 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
+    "src": "images/are-you-on-her-good-side.jpg",
+    "title": "Are you on her good side?",
+    "medium": "Acrylic",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/dream-with-me.jpg",
     "title": "Dream with me",
     "medium": "Mixed Media",
@@ -122,6 +131,15 @@ window.GALLERY_DATA = [
   {
     "src": "images/does-it-matter.jpg",
     "title": "Does it matter?",
+    "medium": "Mixed Media",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Abstract",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/a-star-is-born.jpg",
+    "title": "A star is born",
     "medium": "Mixed Media",
     "dimensions": "24x36",
     "year": "2026",
