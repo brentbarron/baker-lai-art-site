@@ -7,6 +7,15 @@
 
 window.GALLERY_DATA = [
   {
+    "src": "images/are-you-on-her-good-side.jpg",
+    "title": "Are you on her good side?",
+    "medium": "Acrylic",
+    "dimensions": "24x36",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/imagine-art-of-the-possible.jpg",
     "title": "Imagine\u2026Art of the possible",
     "medium": "Mixed Media",
@@ -46,15 +55,6 @@ window.GALLERY_DATA = [
     "src": "images/unbecoming.jpg",
     "title": "Unbecoming",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
-    "year": "2026",
-    "category": "Face Art",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/are-you-on-her-good-side.jpg",
-    "title": "Are you on her good side?",
-    "medium": "Acrylic",
     "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
