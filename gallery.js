@@ -10,7 +10,6 @@ window.GALLERY_DATA = [
     "src": "images/are-you-on-her-good-side.jpg",
     "title": "Are you on her good side?",
     "medium": "Acrylic",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -19,7 +18,6 @@ window.GALLERY_DATA = [
     "src": "images/imagine-art-of-the-possible.jpg",
     "title": "Imagine\u2026Art of the possible",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -28,7 +26,6 @@ window.GALLERY_DATA = [
     "src": "images/look-closer.jpg",
     "title": "Look Closer",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -37,7 +34,6 @@ window.GALLERY_DATA = [
     "src": "images/answer-with-impossible-colour-when-the-world-gets-too-straight-and-narrow.jpg",
     "title": "Answer with impossible colour when the world gets too straight and narrow",
     "medium": "Acrylic",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -46,7 +42,6 @@ window.GALLERY_DATA = [
     "src": "images/eyes-open-north-strong.jpg",
     "title": "Eyes Open (North Strong)",
     "medium": "Acrylic",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -55,7 +50,6 @@ window.GALLERY_DATA = [
     "src": "images/unbecoming.jpg",
     "title": "Unbecoming",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -64,7 +58,6 @@ window.GALLERY_DATA = [
     "src": "images/dream-with-me.jpg",
     "title": "Dream with me",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -81,7 +74,6 @@ window.GALLERY_DATA = [
     "src": "images/im-queer-bitch.jpg",
     "title": "I\u2019m Queer bitch!",
     "medium": "Acrylic",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -90,7 +82,6 @@ window.GALLERY_DATA = [
     "src": "images/how-she-glows.jpg",
     "title": "How she glows",
     "medium": "Mixed Media",
-    "dimensions": "18x24",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -99,7 +90,6 @@ window.GALLERY_DATA = [
     "src": "images/galactic-stare.jpg",
     "title": "Galactic stare",
     "medium": "Acrylic",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art"
   },
@@ -107,7 +97,6 @@ window.GALLERY_DATA = [
     "src": "images/she-knows.jpg",
     "title": "She knows",
     "medium": "Acrylic",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -132,7 +121,6 @@ window.GALLERY_DATA = [
     "src": "images/does-it-matter.jpg",
     "title": "Does it matter?",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
@@ -141,7 +129,6 @@ window.GALLERY_DATA = [
     "src": "images/a-star-is-born.jpg",
     "title": "A star is born",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
@@ -158,7 +145,6 @@ window.GALLERY_DATA = [
     "src": "images/youre-golden.jpg",
     "title": "You're golden",
     "medium": "Mixed Media",
-    "dimensions": "30x40",
     "year": "2026",
     "category": "Figures",
     "notes": "available for purchase"
@@ -167,7 +153,6 @@ window.GALLERY_DATA = [
     "src": "images/starburst.jpg",
     "title": "Starburst",
     "medium": "Acrylic",
-    "dimensions": "30x40",
     "year": "2026",
     "category": "Figures",
     "notes": "available for purchase"
@@ -176,7 +161,6 @@ window.GALLERY_DATA = [
     "src": "images/seeing-in-colour.jpg",
     "title": "Seeing in colour",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
@@ -193,7 +177,6 @@ window.GALLERY_DATA = [
     "src": "images/brent.jpg",
     "title": "Brent",
     "medium": "Acrylic",
-    "dimensions": "36x24",
     "year": "2026",
     "category": "Face Art"
   },
@@ -208,7 +191,6 @@ window.GALLERY_DATA = [
     "src": "images/bosphorus.jpg",
     "title": "Bosphorus",
     "medium": "Acrylic",
-    "dimensions": "18x24",
     "year": "2026",
     "category": "Abstract"
   },
@@ -216,7 +198,6 @@ window.GALLERY_DATA = [
     "src": "images/weightless.jpg",
     "title": "Weightless",
     "medium": "Mixed Media",
-    "dimensions": "30x40",
     "year": "2026",
     "category": "Figures",
     "notes": "available for purchase"
@@ -225,7 +206,6 @@ window.GALLERY_DATA = [
     "src": "images/under-the-tides.jpg",
     "title": "Under the tides",
     "medium": "Acrylic",
-    "dimensions": "18x24",
     "year": "2026",
     "category": "Face Art",
     "notes": "available for purchase"
@@ -234,7 +214,6 @@ window.GALLERY_DATA = [
     "src": "images/sun-kissed.jpg",
     "title": "Sun-kissed",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
@@ -243,7 +222,6 @@ window.GALLERY_DATA = [
     "src": "images/quadrophenia.jpg",
     "title": "Quadrophenia",
     "medium": "Acrylic",
-    "dimensions": "18x24",
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
@@ -260,7 +238,6 @@ window.GALLERY_DATA = [
     "src": "images/from-clarity-to-insight.jpg",
     "title": "From clarity to insight",
     "medium": "Mixed Media",
-    "dimensions": "30x40",
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
@@ -283,7 +260,6 @@ window.GALLERY_DATA = [
     "src": "images/carol.jpg",
     "title": "Carol",
     "medium": "Acrylic",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Face Art"
   },
@@ -291,7 +267,6 @@ window.GALLERY_DATA = [
     "src": "images/maps.jpg",
     "title": "Maps",
     "medium": "Mixed Media",
-    "dimensions": "24x36",
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
@@ -300,7 +275,6 @@ window.GALLERY_DATA = [
     "src": "images/shooting-for-the-stars.jpg",
     "title": "Shooting for the stars",
     "medium": "Mixed Media",
-    "dimensions": "18x24",
     "year": "2026",
     "category": "Abstract"
   }
