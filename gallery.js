@@ -4,6 +4,9 @@
 // medium: optional — e.g. "Oil on Canvas"
 // dimensions: optional — e.g. "12 x 16 in"
 // year: optional — e.g. "2024"
+// category: optional — e.g. "Abstract"
+// price: optional — e.g. "$450 CAD"
+// available: optional — true shows an "Inquire" mailto CTA
 
 window.GALLERY_DATA = [
   {
@@ -12,7 +15,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/imagine-art-of-the-possible.jpg",
@@ -20,7 +23,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/look-closer.jpg",
@@ -28,7 +31,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/answer-with-impossible-colour-when-the-world-gets-too-straight-and-narrow.jpg",
@@ -36,7 +39,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/eyes-open-north-strong.jpg",
@@ -44,7 +47,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/unbecoming.jpg",
@@ -52,7 +55,8 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "price": "$525 CAD",
+    "available": true
   },
   {
     "src": "images/dream-with-me.jpg",
@@ -60,7 +64,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/dreaming-in-colour.jpg",
@@ -68,7 +72,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/im-queer-bitch.jpg",
@@ -76,7 +80,8 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "price": "$375 CAD",
+    "available": true
   },
   {
     "src": "images/how-she-glows.jpg",
@@ -84,7 +89,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/galactic-stare.jpg",
@@ -99,7 +104,8 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "price": "$375 CAD",
+    "available": true
   },
   {
     "src": "images/the-story-behind-the-image.jpg",
@@ -107,7 +113,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/pandora.jpg",
@@ -115,7 +121,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/does-it-matter.jpg",
@@ -123,7 +129,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/a-star-is-born.jpg",
@@ -131,7 +137,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/queen.jpg",
@@ -139,7 +145,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/youre-golden.jpg",
@@ -147,7 +153,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Figures",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/starburst.jpg",
@@ -155,7 +161,8 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Figures",
-    "notes": "available for purchase"
+    "price": "$600 CAD",
+    "available": true
   },
   {
     "src": "images/seeing-in-colour.jpg",
@@ -163,7 +170,8 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "price": "$600 CAD",
+    "available": true
   },
   {
     "src": "images/on-the-radar.jpg",
@@ -171,7 +179,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/brent.jpg",
@@ -200,7 +208,8 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Figures",
-    "notes": "available for purchase"
+    "price": "$450 CAD",
+    "available": true
   },
   {
     "src": "images/under-the-tides.jpg",
@@ -208,7 +217,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Face Art",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/sun-kissed.jpg",
@@ -216,7 +225,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/quadrophenia.jpg",
@@ -224,7 +233,7 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/galaxial.jpg",
@@ -232,7 +241,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/from-clarity-to-insight.jpg",
@@ -240,7 +249,8 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "price": "$350 CAD",
+    "available": true
   },
   {
     "src": "images/explosions-in-the-sky.jpg",
@@ -269,7 +279,7 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
-    "notes": "available for purchase"
+    "available": true
   },
   {
     "src": "images/shooting-for-the-stars.jpg",

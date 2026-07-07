@@ -52,13 +52,28 @@ function titleFromFilename(src) {
     .replace(/\b\w/g, c => c.toUpperCase()); // title case
 }
 
+function inquireHref(title) {
+  return `mailto:bakerlaiart@gmail.com?subject=${encodeURIComponent('Inquiry: ' + title)}`;
+}
+
+function buildPriceRow(price, available, title) {
+  if (!price && !available) return '';
+  return `
+    <p class="gallery-item__price-row">
+      ${price ? `<span class="gallery-item__price">${price}</span>` : ''}
+      ${available ? `<a href="${inquireHref(title)}" class="gallery-item__inquire">Inquire</a>` : ''}
+    </p>
+  `;
+}
+
 function buildGalleryItem(entry, index) {
   const src        = entry.src;
   const title      = entry.title      || titleFromFilename(src);
   const medium     = entry.medium     || '';
   const dimensions = entry.dimensions || '';
   const year       = entry.year       || '';
-  const notes      = entry.notes      || '';
+  const price      = entry.price      || '';
+  const available  = Boolean(entry.available);
   const meta       = [medium, dimensions, year].filter(Boolean).join(' \u2014 ');
 
   const article = document.createElement('article');
@@ -76,7 +91,7 @@ function buildGalleryItem(entry, index) {
     <div class="gallery-item__info">
       <h3 class="gallery-item__title">${title}</h3>
       ${meta ? `<p class="gallery-item__meta">${meta}</p>` : ''}
-      ${notes ? `<p class="gallery-item__notes">${notes}</p>` : ''}
+      ${buildPriceRow(price, available, title)}
     </div>
   `;
 
@@ -97,6 +112,7 @@ function initGallery() {
   const lightboxImg   = document.getElementById('lightboxImg');
   const lightboxTitle = document.getElementById('lightboxTitle');
   const lightboxMeta  = document.getElementById('lightboxMeta');
+  const lightboxPriceRow = document.getElementById('lightboxPriceRow');
   const lightboxClose = document.getElementById('lightboxClose');
   const lightboxPrev  = document.getElementById('lightboxPrev');
   const lightboxNext  = document.getElementById('lightboxNext');
@@ -126,18 +142,19 @@ function initGallery() {
     const item  = visibleItems[index];
     const img   = item.querySelector('img');
     const title = item.querySelector('.gallery-item__title');
-    const meta  = item.querySelector('.gallery-item__meta');
-    const notes = item.querySelector('.gallery-item__notes');
+    const meta     = item.querySelector('.gallery-item__meta');
+    const priceRow = item.querySelector('.gallery-item__price-row');
 
     lightboxImg.classList.add('loading');
 
     const tmpImg  = new Image();
     tmpImg.src    = img.src;
     tmpImg.onload = () => {
-      lightboxImg.src           = img.src;
-      lightboxImg.alt           = img.alt;
-      lightboxTitle.textContent = title ? title.textContent : '';
-      lightboxMeta.textContent  = [meta ? meta.textContent : '', notes ? notes.textContent : ''].filter(Boolean).join(' — ');
+      lightboxImg.src            = img.src;
+      lightboxImg.alt            = img.alt;
+      lightboxTitle.textContent  = title ? title.textContent : '';
+      lightboxMeta.textContent   = meta ? meta.textContent : '';
+      lightboxPriceRow.innerHTML = priceRow ? priceRow.innerHTML : '';
       lightboxImg.classList.remove('loading');
     };
   }
@@ -162,6 +179,8 @@ function initGallery() {
       const visIdx  = visible.indexOf(item);
       if (visIdx > -1) openLightbox(visIdx);
     });
+    const inquire = item.querySelector('.gallery-item__inquire');
+    if (inquire) inquire.addEventListener('click', (e) => e.stopPropagation());
     item.addEventListener('click', () => {
       const visible = getVisibleItems();
       const visIdx  = visible.indexOf(item);

@@ -95,6 +95,13 @@ def normalise_dimensions(raw):
     return s or None
 
 
+def format_price(amount):
+    """450.0 -> '$450 CAD', 450.5 -> '$450.50 CAD'"""
+    if amount == int(amount):
+        return f"${int(amount):,} CAD"
+    return f"${amount:,.2f} CAD"
+
+
 def download_file(url, dest):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req) as resp, open(dest, "wb") as f:
@@ -109,11 +116,14 @@ def write_gallery_js(entries):
         '// medium: optional — e.g. "Oil on Canvas"\n'
         '// dimensions: optional — e.g. "12 x 16 in"\n'
         '// year: optional — e.g. "2024"\n'
+        '// category: optional — e.g. "Abstract"\n'
+        '// price: optional — e.g. "$450 CAD"\n'
+        '// available: optional — true shows an "Inquire" mailto CTA\n'
         "\n"
         "window.GALLERY_DATA = [\n"
     )
 
-    FIELD_ORDER = ["src", "title", "medium", "dimensions", "year", "category", "notes"]
+    FIELD_ORDER = ["src", "title", "medium", "dimensions", "year", "category", "price", "available"]
     item_strs = []
     for entry in entries:
         lines = []
@@ -185,7 +195,8 @@ def main():
         dimensions = normalise_dimensions(dim_items[0]["plain_text"] if dim_items else None)
 
         available  = props.get("Available for Sale", {}).get("checkbox", False)
-        notes      = "available for purchase" if available else None
+        price_num  = props.get("Price", {}).get("number")
+        price      = format_price(price_num) if available and price_num else None
 
         category_obj = props.get("Category", {}).get("select") or {}
         category     = category_obj.get("name") or None
@@ -195,7 +206,8 @@ def main():
         if dimensions: entry["dimensions"] = dimensions
         entry["year"] = "2026"
         if category:   entry["category"]   = category
-        if notes:      entry["notes"]      = notes
+        if price:      entry["price"]      = price
+        if available:  entry["available"]  = True
 
         entries.append(entry)
 
