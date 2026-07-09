@@ -7,6 +7,14 @@
 
 window.GALLERY_DATA = [
   {
+    "src": "images/fire-doesnt-ask.jpg",
+    "title": "Fire doesn\u2019t ask",
+    "medium": "Mixed Media",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/are-you-on-her-good-side.jpg",
     "title": "Are you on her good side?",
     "medium": "Acrylic",
