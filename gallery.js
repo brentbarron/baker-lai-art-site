@@ -39,6 +39,14 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
+    "src": "images/electric-spin.jpg",
+    "title": "Electric Spin",
+    "medium": "Acrylic",
+    "year": "2026",
+    "category": "Figures",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/answer-with-impossible-colour-when-the-world-gets-too-straight-and-narrow.jpg",
     "title": "Answer with impossible colour when the world gets too straight and narrow",
     "medium": "Acrylic",
@@ -158,14 +166,6 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
-    "src": "images/starburst.jpg",
-    "title": "Starburst",
-    "medium": "Acrylic",
-    "year": "2026",
-    "category": "Figures",
-    "notes": "available for purchase"
-  },
-  {
     "src": "images/seeing-in-colour.jpg",
     "title": "Seeing in colour",
     "medium": "Mixed Media",
@@ -272,8 +272,8 @@ window.GALLERY_DATA = [
     "category": "Face Art"
   },
   {
-    "src": "images/maps.jpg",
-    "title": "Maps",
+    "src": "images/explosive-colour.jpg",
+    "title": "Explosive colour",
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Abstract",
