@@ -55,6 +55,14 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
+    "src": "images/burn-bright-and-breathe-deep-diptych.jpg",
+    "title": "Burn Bright and Breathe Deep (Diptych )",
+    "medium": "Mixed Media",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/eyes-open-north-strong.jpg",
     "title": "Eyes Open (North Strong)",
     "medium": "Acrylic",
@@ -76,6 +84,14 @@ window.GALLERY_DATA = [
     "medium": "Mixed Media",
     "year": "2026",
     "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/chilled.jpg",
+    "title": "Chilled",
+    "medium": "Mixed Media",
+    "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   },
   {
