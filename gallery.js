@@ -7,6 +7,14 @@
 
 window.GALLERY_DATA = [
   {
+    "src": "images/shes-magic.jpg",
+    "title": "She\u2019s magic",
+    "medium": "Mixed Media",
+    "year": "2026",
+    "category": "Abstract",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/fire-doesnt-ask.jpg",
     "title": "Fire doesn\u2019t ask",
     "medium": "Mixed Media",
