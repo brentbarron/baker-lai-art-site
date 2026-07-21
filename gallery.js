@@ -95,6 +95,14 @@ window.GALLERY_DATA = [
     "notes": "available for purchase"
   },
   {
+    "src": "images/question.jpg",
+    "title": "Question?",
+    "medium": "Mixed Media",
+    "year": "2026",
+    "category": "Face Art",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/chilled.jpg",
     "title": "Chilled",
     "medium": "Mixed Media",
