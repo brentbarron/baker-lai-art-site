@@ -7,14 +7,6 @@
 
 window.GALLERY_DATA = [
   {
-    "src": "images/shes-magic.jpg",
-    "title": "She\u2019s magic",
-    "medium": "Mixed Media",
-    "year": "2026",
-    "category": "Abstract",
-    "notes": "available for purchase"
-  },
-  {
     "src": "images/fire-doesnt-ask.jpg",
     "title": "Fire doesn\u2019t ask",
     "medium": "Mixed Media",
@@ -52,6 +44,14 @@ window.GALLERY_DATA = [
     "medium": "Acrylic",
     "year": "2026",
     "category": "Figures",
+    "notes": "available for purchase"
+  },
+  {
+    "src": "images/shes-magic.jpg",
+    "title": "She\u2019s magic",
+    "medium": "Mixed Media",
+    "year": "2026",
+    "category": "Abstract",
     "notes": "available for purchase"
   },
   {
@@ -273,21 +273,6 @@ window.GALLERY_DATA = [
     "year": "2026",
     "category": "Abstract",
     "notes": "available for purchase"
-  },
-  {
-    "src": "images/from-clarity-to-insight.jpg",
-    "title": "From clarity to insight",
-    "medium": "Mixed Media",
-    "year": "2026",
-    "category": "Abstract",
-    "notes": "available for purchase"
-  },
-  {
-    "src": "images/explosions-in-the-sky.jpg",
-    "title": "Explosions in the sky",
-    "medium": "Acrylic",
-    "year": "2026",
-    "category": "Abstract"
   },
   {
     "src": "images/gemini.jpg",
