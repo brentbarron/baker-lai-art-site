@@ -7,6 +7,14 @@
 
 window.GALLERY_DATA = [
   {
+    "src": "images/grace-in-motion-power-in-every-strike.jpg",
+    "title": "Grace in motion\u2026power in every strike",
+    "medium": "Acrylic",
+    "year": "2026",
+    "category": "Abstract",
+    "notes": "available for purchase"
+  },
+  {
     "src": "images/wink.jpg",
     "title": "Wink",
     "medium": "Acrylic",
